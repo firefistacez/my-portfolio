@@ -13,18 +13,15 @@ export default function NavBar() {
                     <NavLink to="/post" className="inline-flex items-center py-3 px-3 mr-6 rounded text-red-200 hover:text-yellow-800">
                         Blog Posts
                     </NavLink>
-                    <NavLink to="/project" className="inline-flex items-center py-3 px-3 mr-6 rounded text-red-200 hover:text-yellow-800">
-                        Projects
+                    <NavLink to="/youtube" className="inline-flex items-center py-3 px-3 mr-6 rounded text-red-200 hover:text-yellow-800">
+                        YouTube
                     </NavLink>
                     <NavLink to="/about" className="inline-flex items-center py-3 px-3 mr-6 rounded text-red-200 hover:text-yellow-800">
                         About Me!
                     </NavLink>
                 </nav>
                 <div className="inline-flex py-3 px-3 my-6">
-                    <SocialIcon url="https://twitter.com/DeepakR24418349" className="mr-4" target="_blank" fgColor="#fff" style={{ height:35, width:35 }}/>
-                    <SocialIcon url="https://www.youtube.com/channel/UCp2YSmdYn8afwFrJvZjiIQA" className="mr-4" target="_blank" fgColor="#fff" style={{ height:35, width:35 }}/>
-                    <SocialIcon url="https://github.com/firefistacez" className="mr-4" target="_blank" fgColor="#fff" bgColor="#000" style={{ height:35, width:35 }}/>
-                    {/* <SocialIcon url="https://www.instagram.com/i_l0v3_coding/" className="mr-4" target="_blank" fgColor="#fff" style={{ height:35, width:35 }}/> */}
+                    <SocialIcon url="https://www.youtube.com/channel/UCSwcILSFR_rLB4G1OwluOXQ" className="mr-4" target="_blank" fgColor="#fff" style={{ height:35, width:35 }}/>
                 </div>
             </div>
         </header>
