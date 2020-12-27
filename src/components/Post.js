@@ -33,7 +33,7 @@ export default function Post() {
                             <span className="block h-64 relative rounded shadow leading-snug bg-white border-l-8 border-green-400" key={index}>
                                 <img src={post.mainImage.asset.url} alt={post.mainImage.alt} className="w-full h-full rounded-r object-cover absolute"/>
                                 <span className="block relative h-full flex justify-end items-end pr-4 pb-4">
-                                    <h3 className="text-gray-800 text-lg font-bold px-3 py-4 gb-red-700 text-red-100 bg-opactiy-75 rounded">{post.title}</h3>
+                                    <h3 className="text-gray-800 text-lg font-bold px-3 py-4 gb-red-700 text-red-300 bg-opactiy-50 rounded bg-white">{post.title}</h3>
                                 </span>
                             </span>
                         </Link>
